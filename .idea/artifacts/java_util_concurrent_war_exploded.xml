@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="java.util.concurrent:war exploded">
+    <output-path>$PROJECT_DIR$/target/java.util.concurrent</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java.util.concurrent" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/java.util.concurrent/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="java.util.concurrent/web/Web" />
+    </root>
+  </artifact>
+</component>
